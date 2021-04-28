@@ -1,1 +1,1 @@
-{accessModes: ReadWriteMany, existingClaim: wordpress, pdb.create: true, pdb.minAvailable: 3}
+{accessModes: ReadWriteMany, existingClaim: aws-nfs-pv, pdb.create: true, pdb.minAvailable: 3}
