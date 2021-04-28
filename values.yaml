@@ -1,1 +1,1 @@
-{accessModes: ReadWriteMany, existingClaim: wordpress}
+{accessModes: ReadWriteMany, existingClaim: wordpress, pdb.create: true, pdb.minAvailable: 3}
