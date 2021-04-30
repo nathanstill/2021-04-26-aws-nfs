@@ -1,1 +1,1 @@
-{service.type: ClusterIP, persistence.accessModes: ReadWriteMany, persistence.storageClass: aws-efs, persistence.size: 1Gi, persistence.existingClaim: wp-files, pdb.create: true, pdb.minAvailable: 3}
+{service.type: ClusterIP, persistence.accessModes: ReadWriteMany, persistence.storageClass: aws-efs, persistence.size: 1Gi, persistence.existingClaim: wp-files, pdb.create: true, pdb.minAvailable: 1, volumePermissions.enabled: true}
